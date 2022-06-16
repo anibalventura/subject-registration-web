@@ -17,11 +17,11 @@ Click [here](https://anibalventura.com/resume-generator-web/) to see a live prev
 - Print generated resume.
 - Clear form. -->
 
-## Technologies
+## Dependencies
 
-- HTML
-- CSS / Bootstrap
-- JavaScript / jQuery / toastr
+- [Bootstrap v5.2.0-beta1](https://getbootstrap.com/)
+- [jQuery v3.6.0](https://jquery.com)
+- [toastr v2.1.1](https://codeseven.github.io/toastr/)
 
 ## Build
 

@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Resume Generator</title>
+    <title>Subject Registration</title>
     <link
       rel="stylesheet"
       href="./assets/lib/bootstrap/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="./assets/lib/toastr/css/toastr.min.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body class="d-flex flex-column min-vh-100">
     <header>
-      <nav class="sticky-top mb-3">
+      <nav class="sticky-top mb-5">
         <ul class="nav bg-primary">
-          <li class="nav-item">
+          <li class="nav-item mt-2">
             <a class="nav-link text-white ms-3 active" href="./index.html"
               ><h5>Subject Registration</h5></a
             >
@@ -24,7 +25,130 @@
       </nav>
     </header>
     <div class="container-fluid">
-      <main role="main" class="pb-3"></main>
+      <main role="main" class="pb-3">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="card shadow-sm">
+              <div class="card-header bg-dark text-light">
+                <h5 class="card-title">Student Information</h5>
+              </div>
+              <div class="card-body">
+                <div id="resume-form">
+                  <div class="row form-group mb-3">
+                    <div class="col">
+                      <label for="name" class="form-label"
+                        ><strong>Name:</strong></label
+                      >
+                      <input
+                        id="name"
+                        type="text"
+                        placeholder="Ex. John Doe"
+                        class="form-control shadow-sm"
+                      />
+                    </div>
+                    <div class="col">
+                      <label for="email" class="form-label"
+                        ><strong>Email:</strong></label
+                      >
+                      <input
+                        id="email"
+                        type="email"
+                        placeholder="Ex. johndoe@email.com"
+                        class="form-control shadow-sm"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row form-group mb-3">
+                    <div class="col">
+                      <label for="province" class="form-label"
+                        ><strong>Province:</strong></label
+                      >
+                      <input
+                        id="province"
+                        type="text"
+                        placeholder="Ex. Ontario"
+                        class="form-control shadow-sm"
+                      />
+                    </div>
+                    <div class="col">
+                      <label for="city" class="form-label"
+                        ><strong>City:</strong></label
+                      >
+                      <input
+                        id="city"
+                        type="text"
+                        placeholder="Ex. Toronto"
+                        class="form-control shadow-sm"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row form-group mb-3">
+                    <div class="col">
+                      <label for="neighborhood" class="form-label"
+                        ><strong>Neighborhood:</strong>
+                      </label>
+                      <input
+                        id="neighborhood"
+                        type="text"
+                        placeholder="Ex. Westmount"
+                        class="form-control shadow-sm"
+                      />
+                    </div>
+                    <div class="col">
+                      <label for="street" class="form-label"
+                        ><strong>Street:</strong>
+                      </label>
+                      <input
+                        id="street"
+                        type="text"
+                        placeholder="Ex. 123 Main St"
+                        class="form-control shadow-sm"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row form-group mb-3">
+                    <div class="col-6">
+                      <label for="study-program" class="form-label"
+                        ><strong>Study program:</strong>
+                      </label>
+                      <select id="study-program" class="form-select">
+                        <option value="" selected>Select an option</option>
+                        <option value="software-development">
+                          Software Development
+                        </option>
+                        <option value="mechatronic">Mechatronic</option>
+                        <option value="informatic-security">
+                          Informatic Security
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="d-flex align-items-end justify-content-end mt-4">
+                    <button
+                      id="btn-clear"
+                      class="btn btn-secondary shadow-sm px-4 me-3"
+                    >
+                      Clear
+                    </button>
+                    <button
+                      id="btn-register"
+                      class="btn btn-success shadow-sm px-3"
+                    >
+                      Register
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="process-container"></div>
+      </main>
     </div>
     <footer class="border-top bg-white pt-3 footer text-muted mt-auto">
       <div class="container-fluid text-center">
@@ -39,6 +163,7 @@
 
     <script src="./assets/lib/jquery/jquery-3.6.0.min.js"></script>
     <script src="./assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/lib/toastr/js/toastr.min.js"></script>
     <script src="./assets/js/scripts.js"></script>
   </body>
 </html>

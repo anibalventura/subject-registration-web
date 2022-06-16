@@ -21,7 +21,7 @@ Click [here](https://anibalventura.com/resume-generator-web/) to see a live prev
 
 - HTML
 - CSS / Bootstrap
-- JavaScript / jQuery
+- JavaScript / jQuery / toastr
 
 ## Build
 

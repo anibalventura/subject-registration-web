@@ -26,128 +26,130 @@
     </header>
     <div class="container-fluid">
       <main role="main" class="pb-3">
-        <div class="row justify-content-center">
-          <div class="col-6">
-            <div class="card shadow-sm">
-              <div class="card-header bg-dark text-light">
-                <h5 class="card-title">Student Information</h5>
-              </div>
-              <div class="card-body">
-                <div id="resume-form">
-                  <div class="row form-group mb-3">
-                    <div class="col">
-                      <label for="name" class="form-label"
-                        ><strong>Name:</strong></label
-                      >
-                      <input
-                        id="name"
-                        type="text"
-                        placeholder="Ex. John Doe"
-                        class="form-control shadow-sm"
-                      />
+        <div id="content-container">
+          <div class="row justify-content-center">
+            <div class="col-6">
+              <div class="card shadow-sm">
+                <div class="card-header bg-dark text-light">
+                  <h5 class="card-title mt-2">Student Information</h5>
+                </div>
+                <div class="card-body">
+                  <div id="resume-form">
+                    <div class="row form-group mb-3">
+                      <div class="col">
+                        <label for="name" class="form-label"
+                          ><strong>Name:</strong></label
+                        >
+                        <input
+                          id="name"
+                          type="text"
+                          placeholder="Ex. John Doe"
+                          class="form-control shadow-sm"
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="email" class="form-label"
+                          ><strong>Email:</strong></label
+                        >
+                        <input
+                          id="email"
+                          type="email"
+                          placeholder="Ex. johndoe@email.com"
+                          class="form-control shadow-sm"
+                        />
+                      </div>
                     </div>
-                    <div class="col">
-                      <label for="email" class="form-label"
-                        ><strong>Email:</strong></label
-                      >
-                      <input
-                        id="email"
-                        type="email"
-                        placeholder="Ex. johndoe@email.com"
-                        class="form-control shadow-sm"
-                      />
-                    </div>
-                  </div>
 
-                  <div class="row form-group mb-3">
-                    <div class="col">
-                      <label for="province" class="form-label"
-                        ><strong>Province:</strong></label
-                      >
-                      <input
-                        id="province"
-                        type="text"
-                        placeholder="Ex. Ontario"
-                        class="form-control shadow-sm"
-                      />
+                    <div class="row form-group mb-3">
+                      <div class="col">
+                        <label for="province" class="form-label"
+                          ><strong>Province:</strong></label
+                        >
+                        <input
+                          id="province"
+                          type="text"
+                          placeholder="Ex. Ontario"
+                          class="form-control shadow-sm"
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="city" class="form-label"
+                          ><strong>City:</strong></label
+                        >
+                        <input
+                          id="city"
+                          type="text"
+                          placeholder="Ex. Toronto"
+                          class="form-control shadow-sm"
+                        />
+                      </div>
                     </div>
-                    <div class="col">
-                      <label for="city" class="form-label"
-                        ><strong>City:</strong></label
-                      >
-                      <input
-                        id="city"
-                        type="text"
-                        placeholder="Ex. Toronto"
-                        class="form-control shadow-sm"
-                      />
-                    </div>
-                  </div>
 
-                  <div class="row form-group mb-3">
-                    <div class="col">
-                      <label for="neighborhood" class="form-label"
-                        ><strong>Neighborhood:</strong>
-                      </label>
-                      <input
-                        id="neighborhood"
-                        type="text"
-                        placeholder="Ex. Westmount"
-                        class="form-control shadow-sm"
-                      />
+                    <div class="row form-group mb-3">
+                      <div class="col">
+                        <label for="neighborhood" class="form-label"
+                          ><strong>Neighborhood:</strong>
+                        </label>
+                        <input
+                          id="neighborhood"
+                          type="text"
+                          placeholder="Ex. Westmount"
+                          class="form-control shadow-sm"
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="street" class="form-label"
+                          ><strong>Street:</strong>
+                        </label>
+                        <input
+                          id="street"
+                          type="text"
+                          placeholder="Ex. 123 Main St"
+                          class="form-control shadow-sm"
+                        />
+                      </div>
                     </div>
-                    <div class="col">
-                      <label for="street" class="form-label"
-                        ><strong>Street:</strong>
-                      </label>
-                      <input
-                        id="street"
-                        type="text"
-                        placeholder="Ex. 123 Main St"
-                        class="form-control shadow-sm"
-                      />
-                    </div>
-                  </div>
 
-                  <div class="row form-group mb-3">
-                    <div class="col-6">
-                      <label for="study-program" class="form-label"
-                        ><strong>Study program:</strong>
-                      </label>
-                      <select id="study-program" class="form-select">
-                        <option value="" selected>Select an option</option>
-                        <option value="software-development">
-                          Software Development
-                        </option>
-                        <option value="mechatronic">Mechatronic</option>
-                        <option value="informatic-security">
-                          Informatic Security
-                        </option>
-                      </select>
+                    <div class="row form-group mb-3">
+                      <div class="col-6">
+                        <label for="study-program" class="form-label"
+                          ><strong>Study program:</strong>
+                        </label>
+                        <select id="study-program" class="form-select">
+                          <option value="" selected>Select an option</option>
+                          <option value="software-development">
+                            Software Development
+                          </option>
+                          <option value="mechatronic">Mechatronic</option>
+                          <option value="informatic-security">
+                            Informatic Security
+                          </option>
+                        </select>
+                      </div>
                     </div>
-                  </div>
 
-                  <div class="d-flex align-items-end justify-content-end mt-4">
-                    <button
-                      id="btn-clear"
-                      class="btn btn-secondary shadow-sm px-4 me-3"
+                    <div
+                      class="d-flex align-items-end justify-content-end mt-4"
                     >
-                      Clear
-                    </button>
-                    <button
-                      id="btn-register"
-                      class="btn btn-success shadow-sm px-3"
-                    >
-                      Register
-                    </button>
+                      <button
+                        id="btn-clear"
+                        class="btn btn-secondary shadow-sm px-4 me-3"
+                      >
+                        Clear
+                      </button>
+                      <button
+                        id="btn-continue"
+                        class="btn btn-primary shadow-sm px-3"
+                      >
+                        Continue
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div id="process-container"></div>
       </main>
     </div>
     <footer class="border-top bg-white pt-3 footer text-muted mt-auto">

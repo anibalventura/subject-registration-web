@@ -2,3 +2,17 @@
   border-color: red;
   border-width: medium;
 }
+
+/* Delete browser texts for printing purposes */
+@page {
+  size: auto;
+  /* auto is the initial value */
+  margin: 0mm;
+  /* this affects the margin in the printer settings */
+}
+
+html {
+  background-color: #FFFFFF;
+  margin: 0mm;
+  /* this affects the margin on the html before sending to printer */
+}

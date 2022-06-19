@@ -1,31 +1,36 @@
 # Subject Registration
 
+[![jQuery](https://img.shields.io/static/v1?label=jQuery&message=3.6.0&color=0769AD)](https://jquery.com)
+[![Bootstrap](https://img.shields.io/static/v1?label=Bootstrap&message=5.2.0-beta1&color=7952B3)](https://getbootstrap.com/)
 [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](LICENCE.md)
 
-<!-- <p align="center">
-  <img src="./screenshots/page-form.png" height=300px/>
-  <img src="./screenshots/resume-generated.png" height=300px/>
-</p>
+<div align="center">
+  <img src="./screenshots/1-student-info.png" height=300px style="border:1px solid black;"/>
+  <img src="./screenshots/2-subject-selection.png" height=300px style="border:1px solid black;"/>
+  <img src="./screenshots/3-subject-confirmation.png" height=300px style="border:1px solid black;"/>
+</div>
 
-Easy to use resume generator made with vanilla JavaScript.
+Subject inscription system made with jQuery and Bootstrap.
 
-Click [here](https://anibalventura.com/resume-generator-web/) to see a live preview.
+Click [here](https://anibalventura.com/subject-registration-web/) to see a live preview.
 
 ## Features
 
 - Form validation.
-- Print generated resume.
-- Clear form. -->
+- Clear form.
+- Persist data in selection process.
+- Print generated subjects selection.
 
 ## Dependencies
 
 - [Bootstrap v5.2.0-beta1](https://getbootstrap.com/)
 - [jQuery v3.6.0](https://jquery.com)
 - [toastr v2.1.1](https://codeseven.github.io/toastr/)
+- [jQuery Confirm v3.3.4](https://craftpip.github.io/jquery-confirm/)
 
 ## Build
 
-Download project and open `index.html`
+Download/clone project and open `index.html`
 
 ## License
 

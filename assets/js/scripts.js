@@ -495,7 +495,7 @@ $(document).ready(() => {
         <div class="col-11">
           <div class="card shadow-sm">
             <div class="card-header bg-success text-light">
-              <h5 class="card-title">Confirmation</h5>
+              <h5 class="card-title mt-2">Confirmation</h5>
             </div>
             <div class="card-body">
               <div class="row">

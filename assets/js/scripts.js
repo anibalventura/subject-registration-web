@@ -253,7 +253,7 @@ $(document).ready(() => {
 
   const generateRegistrationForm = () => {
     $("#content-container").html(`
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mt-5">
         <div class="col-6">
           <div class="card shadow-sm">
             <div class="card-header bg-dark text-light">
@@ -384,7 +384,7 @@ $(document).ready(() => {
   // Remove form and show subject selection.
   const generateSubjectsSelection = () => {
     $("#content-container").html(`
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mt-5">
         <div class="col-6">
           <div class="card shadow-sm">
             <div class="card-header bg-dark text-light">
@@ -491,11 +491,11 @@ $(document).ready(() => {
     if (selectedSubjects[0] != undefined) {
       // Generate confirmation form.
       $("#content-container").html(`
-      <div class="row justify-content-center">
-        <div class="col-11 mt-5">
+      <div class="row justify-content-center mt-5">
+        <div class="col-11">
           <div class="card shadow-sm">
             <div class="card-header bg-success text-light">
-              <h5 class="card-title mt-2">Confirmation</h5>
+              <h5 class="card-title">Confirmation</h5>
             </div>
             <div class="card-body">
               <div class="row">
@@ -666,7 +666,7 @@ $(document).ready(() => {
         }
       });
     } else {
-      toastr.error("Select at least one to continue", "Error!");
+      toastr.error("Select at least one to continue.", "Error!");
     }
   };
 
